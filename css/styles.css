@@ -7,6 +7,14 @@
   --background-dark: #2f303a;
 }
 
+h1,
+h2,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 .link {
   text-decoration: inherit;
   font-style: inherit;
@@ -104,6 +112,7 @@
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .work-text {
@@ -118,11 +127,14 @@
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
+  text-align: center;
 }
 
 .branch-pictures {
   list-style-type: none;
-  padding-left: 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .team {
@@ -134,6 +146,8 @@
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
+  text-align: center;
 }
 
 .team-list {
@@ -146,13 +160,17 @@
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  text-align: center;
+  margin: 30px auto 0;
 }
 
 .team-profession {
   font-size: 16px;
-  line-height: 1.19px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+  text-align: center;
+  margin: 10px auto 30px;
 }
 
 .page-footer {
@@ -162,7 +180,7 @@
 
 .address {
   font-size: 14px;
-  line-height: 1.71;
+  line-height: 1.5;
   letter-spacing: 0.03em;
   list-style-type: none;
   padding-left: 0;
@@ -233,4 +251,99 @@
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+}
+/* Homework 3 */
+
+body {
+  width: 1600px;
+  margin: 0 auto;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.section {
+  padding: 94px 0;
+}
+
+header li {
+  display: inline-block;
+}
+.navigation li:not(:last-child) {
+  margin-right: 46px;
+}
+.contact li:not(:last-child) {
+  margin-right: 50px;
+}
+
+.nav-box {
+  display: flex;
+  gap: 93px;
+  align-items: center;
+  padding: 0;
+}
+.head-box {
+  display: flex;
+  gap: 371px;
+  align-items: center;
+  padding: 24px 0 25px;
+}
+
+.order-box {
+  padding: 200px 0;
+}
+
+.order-box-text {
+  text-align: center;
+  width: 696px;
+  margin: 0 auto 30px;
+}
+.order-box-button {
+  display: block;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.work-list-box {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.our-work {
+  padding: 0 0 94px;
+}
+
+.image-no-gap {
+  display: block;
+}
+
+.team-list-box {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.team-card-box {
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.footer-box {
+  padding: 60px 0;
+}
+
+.brand-name-footer {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.address > li:not(:last-child) {
+  margin-bottom: 9px;
 }
