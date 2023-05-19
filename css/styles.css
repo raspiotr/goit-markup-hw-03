@@ -213,6 +213,7 @@ ul {
   letter-spacing: 0.03em;
   color: inherit;
   cursor: pointer;
+  padding: 6px 22px;
 }
 
 .sort-button:hover,
@@ -244,6 +245,8 @@ ul {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin: 0 auto 4px 24px;
+  padding-top: 20px;
 }
 
 .portfolio-type {
@@ -251,8 +254,12 @@ ul {
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+  margin: 0 auto 20px 24px;
 }
-/* Homework 3 */
+
+main {
+  border-top: 1px solid #ececec;
+}
 
 body {
   width: 1600px;
@@ -272,10 +279,12 @@ header li {
   display: inline-block;
 }
 .navigation li:not(:last-child) {
-  margin-right: 46px;
+  padding: 0;
+  margin-right: 43px;
 }
 .contact li:not(:last-child) {
-  margin-right: 50px;
+  padding: 0;
+  margin-right: 47px;
 }
 
 .nav-box {
@@ -288,7 +297,7 @@ header li {
   display: flex;
   gap: 371px;
   align-items: center;
-  padding: 24px 0 25px;
+  padding: 24px 0 25px 15px;
 }
 
 .order-box {
@@ -336,7 +345,7 @@ header li {
 }
 
 .footer-box {
-  padding: 60px 0;
+  padding: 60px 0 60px 15px;
 }
 
 .brand-name-footer {
@@ -346,4 +355,27 @@ header li {
 
 .address > li:not(:last-child) {
   margin-bottom: 9px;
+}
+
+.sort-buttons-box {
+  display: flex;
+  gap: 8px;
+  margin: 0 0 50px;
+  justify-content: center;
+}
+
+.portfolio-box figure {
+  margin: 0;
+}
+
+.portfolio-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.portfolio-box figcaption {
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
 }
